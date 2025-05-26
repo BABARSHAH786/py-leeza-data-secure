@@ -2,7 +2,7 @@ import streamlit as st
 import hashlib
 from cryptography.fernet import Fernet
 
-# Key and cipher setup (constant for this demo)
+# kuch changes Key and cipher setup (constant for this demo)
 KEY = Fernet.generate_key()
 cipher = Fernet(KEY)
 
